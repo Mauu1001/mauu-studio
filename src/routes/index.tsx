@@ -79,8 +79,6 @@ function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
       <div className="relative max-w-6xl mx-auto px-6 text-center">
       <h1 className="reveal text-5xl md:text-7xl font-bold leading-[1.05] mb-6">
-        <div className="reveal inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass text-xs text-muted-foreground mb-8">
-        </div>
           Transform afacerea ta într-o{" "}
           <span className="text-gradient">prezență profesională online</span>
         </h1>
