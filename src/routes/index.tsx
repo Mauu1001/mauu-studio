@@ -55,7 +55,7 @@ function Nav() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2 font-display font-bold text-lg">
           <span className="w-8 h-8 rounded-lg bg-gradient-primary shadow-glow" />
-          <span>mauu<span className="text-gradient">Studio</span></span>
+          <span>Mauu<span className="text-gradient"> Studio</span></span>
         </a>
         <nav className="hidden md:flex items-center gap-8 text-sm text-muted-foreground">
           {links.map(([l, h]) => (
