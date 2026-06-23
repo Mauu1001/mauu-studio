@@ -78,6 +78,7 @@ function Hero() {
       <img src={heroBg} alt="" width={1920} height={1280} className="absolute inset-0 w-full h-full object-cover opacity-50" />
       <div className="absolute inset-0 bg-gradient-to-b from-background/40 via-background/70 to-background" />
       <div className="relative max-w-6xl mx-auto px-6 text-center">
+      </div>
         <h1 className="reveal text-5xl md:text-7xl font-bold leading-[1.05] mb-6">
           Transform afacerea ta într-o{" "}
           <span className="text-gradient">prezență profesională online</span>
