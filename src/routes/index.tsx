@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import {
   Smartphone, Zap, Palette, Wallet, LifeBuoy, Rocket,
   MessageCircle, Send, Instagram, Mail, ArrowRight,
-  Check, ChevronDown,
+  Check, ChevronDown, Sparkles,
 } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import { useReveal } from "@/hooks/use-reveal";
