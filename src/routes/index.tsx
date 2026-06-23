@@ -328,7 +328,7 @@ function Footer() {
         <p className="text-center max-w-md">
           Site-uri de prezentare moderne pentru afaceri care vor să crească online.
         </p>
-        <div>© {new Date().getFullYear()} PixelStudio</div>
+        <div>© {new Date().getFullYear()} Mauu Studio</div>
       </div>
     </footer>
   );
