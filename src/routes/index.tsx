@@ -181,11 +181,6 @@ function Benefits() {
 }
 
 function Portfolio() {
-  const items = [
-    { img: portfolio1, title: "FitZone Gym", tag: "Sală de fitness", desc: "Site modern cu program, abonamente și formular de înscriere." },
-    { img: portfolio2, title: "Bella Beauty", tag: "Salon de înfrumusețare", desc: "Prezentare elegantă cu galerie, servicii și rezervări online." },
-    { img: portfolio3, title: "La Tavola", tag: "Restaurant", desc: "Meniu digital, rezervări și integrare Google Maps." },
-  ];
   return (
     <section id="portfolio" className="py-28">
       <div className="max-w-6xl mx-auto px-6">
@@ -193,22 +188,11 @@ function Portfolio() {
           <div className="text-sm uppercase tracking-widest text-primary mb-4">Portofoliu</div>
           <h2 className="text-4xl md:text-5xl font-bold">Proiecte care <span className="text-gradient">aduc clienți</span></h2>
         </div>
-        <div className="grid md:grid-cols-3 gap-6">
-          {items.map((p, i) => (
-            <article key={p.title} className="reveal group rounded-2xl overflow-hidden glass shadow-card hover:shadow-glow transition-all duration-500" style={{ transitionDelay: `${i * 80}ms` }}>
-              <div className="aspect-[4/3] overflow-hidden">
-                <img src={p.img} alt={p.title} width={1024} height={768} loading="lazy" className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" />
-              </div>
-              <div className="p-6">
-                <div className="text-xs uppercase tracking-wider text-primary mb-2">{p.tag}</div>
-                <h3 className="text-xl font-semibold mb-2">{p.title}</h3>
-                <p className="text-muted-foreground text-sm mb-4">{p.desc}</p>
-                <a href="#contact" className="inline-flex items-center gap-1.5 text-sm font-medium text-foreground hover:text-primary transition-colors">
-                  Vezi proiectul <ArrowRight className="w-4 h-4" />
-                </a>
-              </div>
-            </article>
-          ))}
+        <div className="reveal glass rounded-3xl p-16 md:p-24 text-center shadow-card">
+          <div className="text-5xl md:text-7xl font-display font-bold text-gradient tracking-widest">
+            VA URMA
+          </div>
+          <p className="mt-6 text-muted-foreground">Primele proiecte vor apărea în curând aici.</p>
         </div>
       </div>
     </section>
