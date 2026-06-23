@@ -228,11 +228,6 @@ function Process() {
 }
 
 function Testimonials() {
-  const items = [
-    { name: "Andreea M.", role: "Salon Belle Vie", text: "Site-ul arată exact cum mi-am dorit. Am început să primesc rezervări online în prima săptămână." },
-    { name: "Cristian P.", role: "Gym Pulse", text: "Profesionalism și rapiditate. Recomand cu încredere oricărei afaceri care vrea să arate serios online." },
-    { name: "Mihai R.", role: "Restaurant La Curte", text: "Comunicare excelentă și un rezultat final peste așteptări. Numărul de comenzi a crescut vizibil." },
-  ];
   return (
     <section className="py-28">
       <div className="max-w-6xl mx-auto px-6">
@@ -240,22 +235,11 @@ function Testimonials() {
           <div className="text-sm uppercase tracking-widest text-primary mb-4">Testimoniale</div>
           <h2 className="text-4xl md:text-5xl font-bold">Ce spun <span className="text-gradient">clienții mei</span></h2>
         </div>
-        <div className="grid md:grid-cols-3 gap-6">
-          {items.map((t, i) => (
-            <figure key={t.name} className="reveal p-8 rounded-2xl glass shadow-card" style={{ transitionDelay: `${i * 80}ms` }}>
-              <div className="text-primary text-3xl leading-none mb-4">"</div>
-              <blockquote className="text-foreground/90 leading-relaxed mb-6">{t.text}</blockquote>
-              <figcaption className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-full bg-gradient-primary flex items-center justify-center font-semibold text-primary-foreground">
-                  {t.name[0]}
-                </div>
-                <div>
-                  <div className="font-medium text-sm">{t.name}</div>
-                  <div className="text-xs text-muted-foreground">{t.role}</div>
-                </div>
-              </figcaption>
-            </figure>
-          ))}
+        <div className="reveal glass rounded-3xl p-16 md:p-24 text-center shadow-card">
+          <div className="text-5xl md:text-7xl font-display font-bold text-gradient tracking-widest">
+            VA URMA
+          </div>
+          <p className="mt-6 text-muted-foreground">Primele testimoniale vor apărea în curând aici.</p>
         </div>
       </div>
     </section>
