@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import {
   Smartphone, Zap, Palette, Wallet, LifeBuoy, Rocket,
-  MessageCircle, MapPin, Send, Instagram, Mail, ArrowRight,
+  MessageCircle, Send, Instagram, Mail, ArrowRight,
   Check, ChevronDown,
 } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
